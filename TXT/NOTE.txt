@@ -1,0 +1,14 @@
+include 'BDD/Echiquier/Controle/caseDestinationAvecPiece.php';
+include 'BDD/Echiquier/Controle/caseTraverseeAvecPiece.php';
+c'est la même requête
+
+include 'BDD/Echiquier/Controle/pieceAManger.php';
+ici, on veut une requête identique mais pas avec ce nom là !!!
+
+il faudra tout refacto !!!
+
+MAIS PEUT-ETRE VAUT MIEUX PARFOIS !!!
+include 'BDD/Echiquier/Controle/pieceAManger.php';
+ici, on veut une requête identique mais pas avec ce nom là !!!
+OUI mais de toute façon, ça fait planter là
+vaut mieux créer une autre requête

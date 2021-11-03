@@ -1,0 +1,14 @@
+je peux avoir la main sur blanc
+et laisser random sur noir
+
+????
+
+est-ce le plus simple pour l'instant ???
+
+
+random consiste à utiliser les coordonnées
+on a donc un contrôle de régulation pour voir si c'est ok ou non
+si le coup a le droit d'être joué
+
+avec une boucle while
+tant que le coup n'est pas validé, random 

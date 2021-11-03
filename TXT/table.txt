@@ -1,0 +1,34 @@
+il me faut en fait 3 tables
+
+la table des joueurs
+
+et la table du jeu 
+
+et la table de l'echequier
+
+
+Table joueurs
+gestion temps, point classement ?, position à table
+
+=============
+Table jeu
+compte nombre de tour sans pièces mangées
+autres règles ?
+
+=============
+table équéchier
+
+gestion de 32 pièces
+début capturé promu rock (pour rock cad jamais déplacé)
+donc, 4 colonnes
+
+id
+couleur :  noir ou blanc
+piece : roi, dame etc...
+statut : initial, premier, deplace, sorti, promu,
+abcisse :
+ordonnee :
+
+premier pour premier déplacement
+inital > premier > deplace >
+pour compter la prise en passant

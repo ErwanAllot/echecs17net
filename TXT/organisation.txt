@@ -1,0 +1,24 @@
+J'ai 32 pièces à gérer.
+
+Comme le but c'est de faire jouer en ligne 2 personnes,
+il me faut impérativement une base de donnée.
+et une gestion sessionstart avec 2 personnes qui prennent une place
+
+Il y a donc une gestion de serveur !
+On ne peut faire jouer que 2 personnes sur une même bdd !!!!
+
+Il y a une partie js à gérer pour déplacer les pièces !!!!
+Dans un premier temps, on peut gérer avec les coordonnées ?
+
+Les pions peuvent être promu !!!
+
+Il y a savoir comment gérer les échecs, les mats, les pats, les prises en passant,
+les promotions... et les rocks...
+
+gestion du temps
+
+gestion classement ?
+
+autres options ?
+pièces en désordre
+amazone

@@ -1,0 +1,69 @@
+<?php
+// comment vérifier un MAT
+
+/* 
+
+000000000000000000000
+
+On créé une variable de sortie de while
+Si pas échec on sort
+while ($echec != 0)
+
+============================================================================
+
+
+111111111111111111111
+
+On passe en revue tout l'échiquier
+De 0-0 à 7-7 en faisant 0-0 puis 0-1 etc... 0-7, 1-0, 1-1, etc... 7-6, 7-7
+On fait des count pour voir si une piece appartient à la couleur associée
+En l'occurence, ici c'est $autreCouleur 
+
+C'est la Première boucle while
+
+S'il n'y a pas de pièce, next
+Si la pièce n'est pas de la couleur, next
+
+============================================================================
+
+
+222222222222222222222
+
+Si oui, on a une pièce de la bonne couleur
+On a un switch pour déterminer le mouvement de la pièce
+
+Deuxième boucle à partir des mouvements possibles
+
+Je ne vois pas ICI comment donner un ordre de priorité
+
+Si telle pièce, si telle coord,
+    on check telle direction jusqu'à  => c'est ça la deuxième boucle
+    on check telle direction jusqu'à
+
+On rentre dans une boucle seulement si $echec == 1
+
+============================================================================
+
+
+333333333333333333333
+
+A chaque itération dans la seconde boucle, quand c'est les mouvements basiques
+sont autorisés, on fait :
+    1/ sauvegarde
+    2/ MAJ
+    3/ les_Echecs => donc ici, on a un si $echec == 0 alors standard, si == 1 CECI
+    4/ comeBack
+
+============================================================================
+
+
+4444444444444444444444
+
+Si toujours $echec == 1 après la fin de la première boucle
+$mat = 1
+
+*/
+
+
+
+?>

@@ -1,0 +1,17 @@
+promotion
+
+échecs et mats
+dont échecs quand il y a roque
+
+la répétition 3 fois identique de suite
+
+la règle des 50 coups sans qu'il y ait eu de capture ni déplacement pion autorisation de demander nul
+la règle des 75 coups obligatoire
+
+plus assez de pièces
+
+le nul par incapacité à déplacer une pièce
+
+le temps 
+
+les sessions

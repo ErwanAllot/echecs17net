@@ -1,0 +1,11 @@
+Valider un coup
+
+On vérifie
+
+1) s'il y a saisie
+
+2) s'il existe une pièce
+
+3) si c'est la bonne couleur
+
+4) si c'est le bon mouvement

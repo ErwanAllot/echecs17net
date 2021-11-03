@@ -1,0 +1,31 @@
+<div class="boutons">
+    <div>
+        <form action="<?php $webSitePage; ?>" method="post"> 
+            <button class = "dimension4" name="rejouer" value="Reset">Reset</button>
+        </form>
+    </div>
+    <div>
+        <form action="<?php $webSitePage; ?>" method="post"> 
+            <input id = "entree" name = "coup" class = "dimension4" type="text" size="1" maxlength="4" autofocus></br>
+            <input id = "submit" type="submit" name = "jeu" class = "dimension4" value="Jouer">
+        </form>
+    </div>
+    <!--
+    <div>
+        <form action="<?php $webSitePage; ?>" method="post"> 
+            <button class = "dimension2" name="reprendre" value="ComeBack">Come Back</button>
+        </form>
+    </div>
+    -->
+    <div>
+        <form action="<?php $webSitePage; ?>" method="post"> 
+            <button class = "dimension2" name="deconnexion" value="deconnexion">Se déconnecter</button>
+        </form>
+    </div>
+    <div>
+        compte à rebours avant déconnexion :
+        <form name="clock" onSubmit="0">
+            <input type="text" name="date" size="5" readonly="true" class="style">
+        </form>
+    </div>
+</div>

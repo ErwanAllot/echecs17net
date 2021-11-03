@@ -1,0 +1,33 @@
+<html>
+
+    <script>
+        bcle=0;
+      
+      function clock()
+      {
+        if (bcle == 0)
+        {
+          sec = <?php echo $compteARebours; ?>;
+        }
+        else
+        {
+          sec --;
+        };
+        txt="";
+
+        txt += sec ;
+        timer = setTimeout("clock()",1000);
+        bcle ++;
+        document.clock.date.value = txt ;
+
+        if (sec < 0){
+            // je n'ai pas trouvé le moyen de bien faire l'adresse ici
+            // incompatibilité entre php et js
+
+            window.location = "https://erwanallot.com/echecs17";
+        }
+      }
+      </script>
+
+
+</html>

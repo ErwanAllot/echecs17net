@@ -1,0 +1,9 @@
+règle des 50 coups
+règle des 75 coups
+règle de répétition 3 fois successif
+règle de répétition 5 fois
+https://ecole.apprendre-les-echecs.com/plus-longue-partie-echecs-possible/
+
+proposer nul => tjrs accessible
+demander nul => après règle 50
+nul imposé => règle 75 / répétition 3xSuc ou 5fois

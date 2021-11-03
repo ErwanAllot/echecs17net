@@ -1,0 +1,134 @@
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border:2px solid #1c87c9;
+}
+
+table, tr, td, th {
+    border-spacing: 0;
+}
+
+td {
+    border:2px solid #1c87c9;
+    /*border: groove #1c87c9 sera utile quand js pour sélectionner case groove !!!!*/
+}
+
+.cadre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lettre{
+    display: flex;
+    align-items: space-around;
+    justify-content: space-around;
+    color:blue;
+}
+
+.chiffre, .boutons, .information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+
+    border-collapse: separate;
+    height: 738px;
+    color:red;
+}
+
+.boutons{margin-left:150px;}
+.information{margin-right:150px;}
+
+#carre{
+    height: 90px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noir{
+    background-color: rgb(224, 100, 131);
+}
+
+.dimension5{font-size: 5em;}
+.dimension4{font-size: 4em;}
+.dimension3{font-size: 3em;}
+.dimension2{font-size: 2em;}
+
+/*
+button, input {
+    height:100px;
+    width:200px;
+    font: sans-serif;
+}
+
+button, #submit {
+    background:#00a279;
+    color:white;
+    border-color:#00a279;
+}
+
+button:hover, #submit:hover{
+  background-color: rgb(223, 103, 103);
+}
+*/
+
+#tourBlanc  {
+    height: 100px;
+    width: 300px;
+    color : black;
+    border: groove #1c87c9;
+}
+
+#tourNoir  {
+    height: 100px;
+    width: 300px;
+    color : white;
+    background-color: black;
+    border: groove #1c87c9;
+}
+
+#saisie {
+    height: 400px;
+    width: 300px;
+    color : blue;
+    border: groove #1c87c9;
+}
+
+#tourBlanc, #tourNoir, #saisie {
+    text-align: center;
+    /* Aligne le texte verticalement au milieu */
+    display: table;
+}
+
+#tourBlanc span, #tourNoir span, #saisie span {
+    /* Aligne le texte verticalement au milieu */
+    vertical-align:middle;
+    display: table-cell;
+}
+
+
+#debutBlanc {
+    color : black;
+    background-color: white;
+}
+
+.texteCentre{
+    text-align: center;
+}
+
+.alignement{
+    display: flex;
+    align-items: space-around;
+    justify-content: space-around;
+}
+
+form {
+    height : 71px;
+}
+
+button:hover, #submit:hover{
+    background-color: rgb(223, 201, 103);
+  }

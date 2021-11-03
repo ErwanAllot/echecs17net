@@ -1,0 +1,14 @@
+    // => vérifier ce que ça fait lors de la promotion
+    // s'il n'y a pas de bug
+    
+    // Normalement, quand on aura la séquence d'après
+    // on n'aurait pas à faire cette dernière portion
+    // c'est interdit de roquer en position d'échecs.
+    // il faut une autre database !!!
+    // réfléchir à ce qu'on y met
+    // je ne sais pas, vu que ça fonctionne et que tout est fait
+    // plutôt dans sablier ??? mat pat et différent nul plus abandon ???
+    // en fait mat c'est directement dans le jeu...
+    // mais faut contrôler s'il y a échec d'abord
+    // et en refaisant ce programme c'est rapide
+    // le mat c'est autre chose par contre
